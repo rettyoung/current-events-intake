@@ -1,0 +1,17 @@
+{
+ "first_run": true,
+ "generated_at": "2026-11-02T19:32:52Z",
+ "last_run": {
+  "backfill": 2514,
+  "dupes": 133,
+  "failed": 1,
+  "feeds": 65,
+  "items_in_feeds": 3393,
+  "new": 746,
+  "not_modified": 0,
+  "ok": 64,
+  "skipped": 0
+ },
+ "schema": "current-events-intake-v1",
+ "started_at": "2026-11-02T19:32:52Z"
+}
