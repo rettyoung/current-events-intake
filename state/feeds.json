@@ -143,16 +143,6 @@
   "ok": true,
   "src": "The Bulwark"
  },
- "cassandra": {
-  "cadence": "irregular",
-  "error": "HTTP Error 403: Forbidden",
-  "fails": 1,
-  "http": 403,
-  "kind": "editorial",
-  "last_try": "2026-11-02T19:32:52Z",
-  "ok": false,
-  "src": "Cassandra Unchained"
- },
  "cleantechnica": {
   "cadence": "daily",
   "error": "",

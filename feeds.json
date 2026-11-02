@@ -362,15 +362,6 @@
    "cadence": "daily"
   },
   {
-   "id": "cassandra",
-   "url": "https://michaeljburry.substack.com/feed",
-   "feed_title": "Cassandra Unchained",
-   "src": "Cassandra Unchained",
-   "group": "Cassandra Unchained",
-   "kind": "editorial",
-   "cadence": "irregular"
-  },
-  {
    "id": "npr",
    "url": "https://feeds.npr.org/1001/rss.xml",
    "feed_title": "NPR Topics: News",

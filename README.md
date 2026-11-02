@@ -6,7 +6,7 @@ Replaces Blogtrottr as the input to the Current Events Digest. Every hour a GitH
 
 | Path | What it is |
 |---|---|
-| `feeds.json` | The feed list (65 feeds from the Blogtrottr export of 2026-11-02). Edit this to add or remove a source. |
+| `feeds.json` | The feed list (64 feeds: the Blogtrottr export of 2026-11-02, less Cassandra Unchained). Edit this to add or remove a source. |
 | `intake.py` | The hourly job. Python standard library only. |
 | `items/YYYY-MM-DD.jsonl` | New items, one JSON record per line, filed by the UTC date first seen. Kept 30 days. |
 | `state/meta.json` | `generated_at`: the time of the last successful intake run. The digest uses it as its window end. |

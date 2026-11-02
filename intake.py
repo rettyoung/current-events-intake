@@ -229,6 +229,8 @@ def main():
     feeds = load(FEEDS, {})["feeds"]
     seen = load(os.path.join(STATE, "seen.json"), {})
     status = load(os.path.join(STATE, "feeds.json"), {})
+    ids = {f["id"] for f in feeds}
+    status = {k: v for k, v in status.items() if k in ids}   # forget removed feeds
     first_run = not seen
     T = now_utc()
     today = T.strftime("%Y-%m-%d")
