@@ -1,0 +1,590 @@
+{
+ "_note": "Feed list for the intake. Edit here to add or remove a source (this replaces the Blogtrottr subscription list). kind: editorial|wire. cadence: daily|weekly|irregular (feed-health thresholds 5 / 21 days / never). Items from feeds in the same group count as one source per story.",
+ "feeds": [
+  {
+   "id": "politico",
+   "url": "https://rss.politico.com/politics-news.xml",
+   "feed_title": "Politics",
+   "src": "Politico",
+   "group": "Politico",
+   "kind": "editorial",
+   "cadence": "daily"
+  },
+  {
+   "id": "reason",
+   "url": "http://feeds.feedburner.com/reason/AllArticles",
+   "feed_title": "Latest - Reason Magazine",
+   "src": "Reason",
+   "group": "Reason",
+   "kind": "editorial",
+   "cadence": "daily"
+  },
+  {
+   "id": "dispatch",
+   "url": "https://thedispatch.com/feed/",
+   "feed_title": "The Dispatch",
+   "src": "The Dispatch",
+   "group": "The Dispatch",
+   "kind": "editorial",
+   "cadence": "daily"
+  },
+  {
+   "id": "vox",
+   "url": "https://www.vox.com/rss/index.xml",
+   "feed_title": "Vox",
+   "src": "Vox",
+   "group": "Vox",
+   "kind": "editorial",
+   "cadence": "daily"
+  },
+  {
+   "id": "stiglitz",
+   "url": "https://www.theguardian.com/profile/josephstiglitz/rss",
+   "feed_title": "Joseph Stiglitz | The Guardian",
+   "src": "Joseph Stiglitz (Guardian)",
+   "group": "Joseph Stiglitz",
+   "kind": "editorial",
+   "cadence": "irregular"
+  },
+  {
+   "id": "national-affairs",
+   "url": "http://www.nationalaffairs.com/rss/publications.asp",
+   "feed_title": "Articles | National Affairs",
+   "src": "National Affairs",
+   "group": "National Affairs",
+   "kind": "editorial",
+   "cadence": "irregular"
+  },
+  {
+   "id": "bloomberg-politics",
+   "url": "https://www.bloomberg.com/feeds/politics/news.rss",
+   "feed_title": "Bloomberg Politics",
+   "src": "Bloomberg",
+   "group": "Bloomberg",
+   "kind": "editorial",
+   "cadence": "daily"
+  },
+  {
+   "id": "guardian-us",
+   "url": "https://www.theguardian.com/us-news/rss",
+   "feed_title": "US news | The Guardian",
+   "src": "Guardian",
+   "group": "Guardian",
+   "kind": "editorial",
+   "cadence": "daily"
+  },
+  {
+   "id": "guardian-world",
+   "url": "https://www.theguardian.com/world/rss",
+   "feed_title": "World news | The Guardian",
+   "src": "Guardian",
+   "group": "Guardian",
+   "kind": "editorial",
+   "cadence": "daily"
+  },
+  {
+   "id": "american-conservative",
+   "url": "http://www.theamericanconservative.com/feed/",
+   "feed_title": "The American Conservative",
+   "src": "The American Conservative",
+   "group": "The American Conservative",
+   "kind": "editorial",
+   "cadence": "daily"
+  },
+  {
+   "id": "democracy-journal",
+   "url": "http://democracyjournal.org/feed/",
+   "feed_title": "Democracy Journal",
+   "src": "Democracy Journal",
+   "group": "Democracy Journal",
+   "kind": "editorial",
+   "cadence": "weekly"
+  },
+  {
+   "id": "racket",
+   "url": "https://www.racket.news/feed",
+   "feed_title": "Racket News",
+   "src": "Racket News",
+   "group": "Racket News",
+   "kind": "editorial",
+   "cadence": "weekly"
+  },
+  {
+   "id": "bulwark",
+   "url": "https://www.thebulwark.com/feed",
+   "feed_title": "The Bulwark",
+   "src": "The Bulwark",
+   "group": "The Bulwark",
+   "kind": "editorial",
+   "cadence": "daily"
+  },
+  {
+   "id": "ft-international",
+   "url": "https://www.ft.com/rss/home/international",
+   "feed_title": "International homepage",
+   "src": "FT International",
+   "group": "FT",
+   "kind": "editorial",
+   "cadence": "daily"
+  },
+  {
+   "id": "nation",
+   "url": "https://www.thenation.com/feed/?post_type=article",
+   "feed_title": "Article | The Nation",
+   "src": "The Nation",
+   "group": "The Nation",
+   "kind": "editorial",
+   "cadence": "daily"
+  },
+  {
+   "id": "nyt-politics",
+   "url": "https://rss.nytimes.com/services/xml/rss/nyt/Politics.xml",
+   "feed_title": "NYT > U.S. > Politics",
+   "src": "NYT",
+   "group": "NYT",
+   "kind": "editorial",
+   "cadence": "daily"
+  },
+  {
+   "id": "lever",
+   "url": "https://www.levernews.com/rss/",
+   "feed_title": "The Lever",
+   "src": "The Lever",
+   "group": "The Lever",
+   "kind": "editorial",
+   "cadence": "weekly"
+  },
+  {
+   "id": "lbo",
+   "url": "https://lbo-news.com/feed/",
+   "feed_title": "LBO News from Doug Henwood",
+   "src": "LBO News",
+   "group": "LBO News",
+   "kind": "editorial",
+   "cadence": "weekly"
+  },
+  {
+   "id": "national-review",
+   "url": "https://www.nationalreview.com/feed/",
+   "feed_title": "National Review",
+   "src": "National Review",
+   "group": "National Review",
+   "kind": "editorial",
+   "cadence": "daily"
+  },
+  {
+   "id": "axios",
+   "url": "https://api.axios.com/feed/",
+   "feed_title": "Axios",
+   "src": "Axios",
+   "group": "Axios",
+   "kind": "editorial",
+   "cadence": "daily"
+  },
+  {
+   "id": "farnam-street",
+   "url": "http://feeds.feedburner.com/68131",
+   "feed_title": "Farnam Street",
+   "src": "Farnam Street",
+   "group": "Farnam Street",
+   "kind": "editorial",
+   "cadence": "weekly"
+  },
+  {
+   "id": "crooked",
+   "url": "https://crooked.com/feed/",
+   "feed_title": "Crooked Media",
+   "src": "Crooked Media",
+   "group": "Crooked Media",
+   "kind": "editorial",
+   "cadence": "daily"
+  },
+  {
+   "id": "grist",
+   "url": "https://grist.org/feed/",
+   "feed_title": "Grist",
+   "src": "Grist",
+   "group": "Grist",
+   "kind": "editorial",
+   "cadence": "weekly"
+  },
+  {
+   "id": "heated",
+   "url": "https://heated.world/feed",
+   "feed_title": "HEATED",
+   "src": "HEATED",
+   "group": "HEATED",
+   "kind": "editorial",
+   "cadence": "weekly"
+  },
+  {
+   "id": "rmi",
+   "url": "https://rmi.org/feed/",
+   "feed_title": "RMI",
+   "src": "RMI",
+   "group": "RMI",
+   "kind": "editorial",
+   "cadence": "irregular"
+  },
+  {
+   "id": "volts",
+   "url": "https://www.volts.wtf/feed",
+   "feed_title": "Volts",
+   "src": "Volts",
+   "group": "Volts",
+   "kind": "editorial",
+   "cadence": "weekly"
+  },
+  {
+   "id": "pv-tech",
+   "url": "https://www.pv-tech.org/feed/",
+   "feed_title": "PV Tech",
+   "src": "PV Tech",
+   "group": "PV Tech",
+   "kind": "editorial",
+   "cadence": "daily"
+  },
+  {
+   "id": "cleantechnica",
+   "url": "http://cleantechnica.com/feed/",
+   "feed_title": "CleanTechnica",
+   "src": "CleanTechnica",
+   "group": "CleanTechnica",
+   "kind": "editorial",
+   "cadence": "daily"
+  },
+  {
+   "id": "pv-magazine-global",
+   "url": "https://www.pv-magazine.com/feed/",
+   "feed_title": "pv magazine Global",
+   "src": "pv magazine",
+   "group": "pv magazine",
+   "kind": "editorial",
+   "cadence": "daily"
+  },
+  {
+   "id": "pv-magazine-usa",
+   "url": "https://pv-magazine-usa.com/feed/",
+   "feed_title": "pv magazine USA",
+   "src": "pv magazine USA",
+   "group": "pv magazine",
+   "kind": "editorial",
+   "cadence": "daily"
+  },
+  {
+   "id": "factor-this",
+   "url": "https://www.renewableenergyworld.com/feed/",
+   "feed_title": "Factor This™",
+   "src": "Factor This",
+   "group": "Factor This",
+   "kind": "editorial",
+   "cadence": "daily"
+  },
+  {
+   "id": "350org",
+   "url": "http://feeds.feedburner.com/350org",
+   "feed_title": "350.org - Movement Dispatches and Climate News",
+   "src": "350.org",
+   "group": "350.org",
+   "kind": "editorial",
+   "cadence": "weekly"
+  },
+  {
+   "id": "utility-dive",
+   "url": "https://www.utilitydive.com/feeds/news/",
+   "feed_title": "Utility Dive - Latest News",
+   "src": "Utility Dive",
+   "group": "Utility Dive",
+   "kind": "editorial",
+   "cadence": "daily"
+  },
+  {
+   "id": "guardian-business",
+   "url": "https://www.theguardian.com/uk/business/rss",
+   "feed_title": "Business | The Guardian",
+   "src": "Guardian Business",
+   "group": "Guardian",
+   "kind": "editorial",
+   "cadence": "daily"
+  },
+  {
+   "id": "wsj-markets",
+   "url": "https://feeds.content.dowjones.io/public/rss/RSSMarketsMain",
+   "feed_title": "WSJ.com: Markets",
+   "src": "WSJ",
+   "group": "WSJ",
+   "kind": "editorial",
+   "cadence": "daily"
+  },
+  {
+   "id": "wsj-business",
+   "url": "https://feeds.content.dowjones.io/public/rss/WSJcomUSBusiness",
+   "feed_title": "WSJ.com: US Business",
+   "src": "WSJ",
+   "group": "WSJ",
+   "kind": "editorial",
+   "cadence": "daily"
+  },
+  {
+   "id": "wsj-tech",
+   "url": "https://feeds.content.dowjones.io/public/rss/RSSWSJD",
+   "feed_title": "Technology - WSJ.com",
+   "src": "WSJ",
+   "group": "WSJ",
+   "kind": "editorial",
+   "cadence": "daily"
+  },
+  {
+   "id": "bloomberg-markets",
+   "url": "https://www.bloomberg.com/feeds/markets/news.rss",
+   "feed_title": "Bloomberg Markets",
+   "src": "Bloomberg",
+   "group": "Bloomberg",
+   "kind": "editorial",
+   "cadence": "daily"
+  },
+  {
+   "id": "nyt-business",
+   "url": "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml",
+   "feed_title": "NYT > Business",
+   "src": "NYT",
+   "group": "NYT",
+   "kind": "editorial",
+   "cadence": "daily"
+  },
+  {
+   "id": "nyt-dealbook",
+   "url": "https://rss.nytimes.com/services/xml/rss/nyt/Dealbook.xml",
+   "feed_title": "NYT > Business > DealBook",
+   "src": "NYT DealBook",
+   "group": "NYT",
+   "kind": "editorial",
+   "cadence": "daily"
+  },
+  {
+   "id": "cassandra",
+   "url": "https://michaeljburry.substack.com/feed",
+   "feed_title": "Cassandra Unchained",
+   "src": "Cassandra Unchained",
+   "group": "Cassandra Unchained",
+   "kind": "editorial",
+   "cadence": "irregular"
+  },
+  {
+   "id": "npr",
+   "url": "https://feeds.npr.org/1001/rss.xml",
+   "feed_title": "NPR Topics: News",
+   "src": "NPR",
+   "group": "NPR",
+   "kind": "wire",
+   "cadence": "daily"
+  },
+  {
+   "id": "bbc-world",
+   "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+   "feed_title": "BBC News",
+   "src": "BBC",
+   "group": "BBC",
+   "kind": "wire",
+   "cadence": "daily"
+  },
+  {
+   "id": "bbc-business",
+   "url": "https://feeds.bbci.co.uk/news/business/rss.xml",
+   "feed_title": "BBC News",
+   "src": "BBC",
+   "group": "BBC",
+   "kind": "wire",
+   "cadence": "daily"
+  },
+  {
+   "id": "pbs",
+   "url": "https://www.pbs.org/newshour/feeds/rss/headlines",
+   "feed_title": "PBS News Hour - The Latest",
+   "src": "PBS",
+   "group": "PBS",
+   "kind": "wire",
+   "cadence": "daily"
+  },
+  {
+   "id": "aljazeera",
+   "url": "https://www.aljazeera.com/xml/rss/all.xml",
+   "feed_title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+   "src": "Al Jazeera",
+   "group": "Al Jazeera",
+   "kind": "wire",
+   "cadence": "daily"
+  },
+  {
+   "id": "reuters-world",
+   "url": "https://news.google.com/rss/search?q=site:reuters.com/world+when:1d&hl=en-US&gl=US&ceid=US:en",
+   "feed_title": "\"site:reuters.com/world when:1d\" - Google News",
+   "src": "Reuters",
+   "group": "Reuters",
+   "kind": "wire",
+   "cadence": "daily"
+  },
+  {
+   "id": "reuters-business",
+   "url": "https://news.google.com/rss/search?q=site:reuters.com/business+when:1d&hl=en-US&gl=US&ceid=US:en",
+   "feed_title": "\"site:reuters.com/business when:1d\" - Google News",
+   "src": "Reuters",
+   "group": "Reuters",
+   "kind": "wire",
+   "cadence": "daily"
+  },
+  {
+   "id": "reuters-markets",
+   "url": "https://news.google.com/rss/search?q=site:reuters.com/markets+-site:reuters.com/markets/companies+-site:reuters.com/markets/quote+when:1d&hl=en-US&gl=US&ceid=US:en",
+   "feed_title": "\"site:reuters.com/markets -site:reuters.com/markets/companies -site:reuters.com/markets/quote when:1d\" - Google News",
+   "src": "Reuters",
+   "group": "Reuters",
+   "kind": "wire",
+   "cadence": "daily"
+  },
+  {
+   "id": "reuters-tech",
+   "url": "https://news.google.com/rss/search?q=site:reuters.com/technology+when:1d&hl=en-US&gl=US&ceid=US:en",
+   "feed_title": "\"site:reuters.com/technology when:1d\" - Google News",
+   "src": "Reuters",
+   "group": "Reuters",
+   "kind": "wire",
+   "cadence": "daily"
+  },
+  {
+   "id": "economist-finance",
+   "url": "https://www.economist.com/finance-and-economics/rss.xml",
+   "feed_title": "Finance & economics",
+   "src": "The Economist",
+   "group": "The Economist",
+   "kind": "editorial",
+   "cadence": "weekly"
+  },
+  {
+   "id": "economist-business",
+   "url": "https://www.economist.com/business/rss.xml",
+   "feed_title": "Business",
+   "src": "The Economist",
+   "group": "The Economist",
+   "kind": "editorial",
+   "cadence": "weekly"
+  },
+  {
+   "id": "economist-us",
+   "url": "https://www.economist.com/united-states/rss.xml",
+   "feed_title": "United States",
+   "src": "The Economist",
+   "group": "The Economist",
+   "kind": "editorial",
+   "cadence": "weekly"
+  },
+  {
+   "id": "economist-international",
+   "url": "https://www.economist.com/international/rss.xml",
+   "feed_title": "International",
+   "src": "The Economist",
+   "group": "The Economist",
+   "kind": "editorial",
+   "cadence": "weekly"
+  },
+  {
+   "id": "economist-scitech",
+   "url": "https://www.economist.com/science-and-technology/rss.xml",
+   "feed_title": "Science & technology",
+   "src": "The Economist",
+   "group": "The Economist",
+   "kind": "editorial",
+   "cadence": "weekly"
+  },
+  {
+   "id": "wired-business",
+   "url": "https://www.wired.com/feed/category/business/latest/rss",
+   "feed_title": "Business Latest",
+   "src": "Wired",
+   "group": "Wired",
+   "kind": "editorial",
+   "cadence": "daily"
+  },
+  {
+   "id": "wired-science",
+   "url": "https://www.wired.com/feed/category/science/latest/rss",
+   "feed_title": "Science Latest",
+   "src": "Wired",
+   "group": "Wired",
+   "kind": "editorial",
+   "cadence": "daily"
+  },
+  {
+   "id": "wired-politics",
+   "url": "https://www.wired.com/feed/category/politics/latest/rss/",
+   "feed_title": "Feed: Politics",
+   "src": "Wired",
+   "group": "Wired",
+   "kind": "editorial",
+   "cadence": "daily"
+  },
+  {
+   "id": "ft-us",
+   "url": "https://www.ft.com/us?format=rss",
+   "feed_title": "US",
+   "src": "FT US",
+   "group": "FT",
+   "kind": "editorial",
+   "cadence": "daily"
+  },
+  {
+   "id": "ft-world",
+   "url": "https://www.ft.com/world?format=rss",
+   "feed_title": "World",
+   "src": "FT World",
+   "group": "FT",
+   "kind": "editorial",
+   "cadence": "daily"
+  },
+  {
+   "id": "ft-technology",
+   "url": "https://www.ft.com/technology?format=rss",
+   "feed_title": "Technology",
+   "src": "FT Technology",
+   "group": "FT",
+   "kind": "editorial",
+   "cadence": "daily"
+  },
+  {
+   "id": "ft-companies",
+   "url": "https://www.ft.com/companies?format=rss",
+   "feed_title": "Companies",
+   "src": "FT Companies",
+   "group": "FT",
+   "kind": "editorial",
+   "cadence": "daily"
+  },
+  {
+   "id": "ft-markets",
+   "url": "https://www.ft.com/markets?format=rss",
+   "feed_title": "Markets",
+   "src": "FT Markets",
+   "group": "FT",
+   "kind": "editorial",
+   "cadence": "daily"
+  },
+  {
+   "id": "ft-climate",
+   "url": "https://www.ft.com/climate-capital?format=rss",
+   "feed_title": "Climate Capital",
+   "src": "FT Climate Capital",
+   "group": "FT",
+   "kind": "editorial",
+   "cadence": "daily"
+  },
+  {
+   "id": "nyt-technology",
+   "url": "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml",
+   "feed_title": "NYT > Technology",
+   "src": "NYT",
+   "group": "NYT",
+   "kind": "editorial",
+   "cadence": "daily"
+  }
+ ]
+}
