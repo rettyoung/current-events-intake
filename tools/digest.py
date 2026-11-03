@@ -164,7 +164,10 @@ def cmd_health(a):
 
 
 def main():
+    global ROOT
     p = argparse.ArgumentParser()
+    p.add_argument("--root", default=os.environ.get("DIGEST_ROOT", ROOT),
+                   help="intake repo checkout (default: the repo this script sits in)")
     sub = p.add_subparsers(dest="cmd", required=True)
     w = sub.add_parser("window"); w.add_argument("--since")
     l = sub.add_parser("list"); l.add_argument("--since", required=True)
@@ -172,6 +175,7 @@ def main():
     s = sub.add_parser("show"); s.add_argument("ids", nargs="+")
     h = sub.add_parser("health"); h.add_argument("--now")
     a = p.parse_args()
+    ROOT = os.path.abspath(a.root)
     {"window": cmd_window, "list": cmd_list, "show": cmd_show, "health": cmd_health}[a.cmd](a)
 
 

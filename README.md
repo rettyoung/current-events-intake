@@ -12,7 +12,7 @@ Replaces Blogtrottr as the input to the Current Events Digest. Every hour a GitH
 | `state/meta.json` | `generated_at`: the time of the last successful intake run. The digest uses it as its window end. |
 | `state/feeds.json` | Per-feed status: last success, last new item, errors. Drives Feed health. |
 | `state/seen.json` | Dedupe index, kept 90 days. |
-| `tools/digest.py` | What the digest runs: `window`, `list`, `show`, `health`. |
+| `tools/digest.py` | The digest's reader: `window`, `list`, `show`, `health`. The scheduled digest is not allowed to run code cloned from GitHub, so it runs a copy packaged in the `current-events-digest-tools` plugin, pointed at the clone with `--root`. After changing this file, rebuild that plugin. |
 
 ## An item record
 
@@ -40,5 +40,5 @@ The first run only marks the feeds' current contents as seen and emits items fro
 
 - **One feed fails** (a 403, a timeout, bad XML): the run carries on. The failure is recorded in `state/feeds.json`, and the digest reports it under Feed health once it has failed three runs in a row.
 - **More than half the feeds fail**: the run still commits what it got, then exits with an error so GitHub emails you.
-- **The run doesn't happen**: GitHub sometimes delays or skips scheduled runs. The digest reads `generated_at`, so a late run shifts items into the next digest rather than losing them. The digest flags the intake as stale when `generated_at` is more than 6 hours old.
+- **The run doesn't happen**: GitHub runs schedules best-effort and often delays or skips them (on 2026-11-02/03 it started 2 of about 22 hourly runs). The workflow therefore runs hourly at :41 UTC, off the busy top of the hour, plus extra weekday runs at 14:13 and 15:13 UTC just before the digest. The digest reads `generated_at`, so a late run shifts items into the next digest rather than losing them. The digest flags the intake as stale when `generated_at` is more than 6 hours old.
 - GitHub pauses schedules on repos with no activity for 60 days. The hourly commits should count as activity; if the schedule is ever paused, re-enable it in the Actions tab.
