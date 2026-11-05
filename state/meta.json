@@ -1,14 +1,14 @@
 {
  "first_run": false,
- "generated_at": "2026-11-04T23:55:21Z",
+ "generated_at": "2026-11-05T07:22:49Z",
  "last_run": {
   "backfill": 0,
-  "dupes": 1994,
-  "failed": 1,
+  "dupes": 1580,
+  "failed": 0,
   "feeds": 64,
-  "items_in_feeds": 2139,
-  "new": 145,
-  "not_modified": 9,
+  "items_in_feeds": 1825,
+  "new": 245,
+  "not_modified": 10,
   "ok": 54,
   "skipped": 0
  },
