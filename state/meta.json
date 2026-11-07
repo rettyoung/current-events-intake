@@ -1,15 +1,15 @@
 {
  "first_run": false,
- "generated_at": "2026-11-06T23:29:48Z",
+ "generated_at": "2026-11-07T03:11:43Z",
  "last_run": {
   "backfill": 0,
-  "dupes": 1659,
+  "dupes": 1379,
   "failed": 0,
   "feeds": 64,
-  "items_in_feeds": 1786,
-  "new": 127,
-  "not_modified": 12,
-  "ok": 52,
+  "items_in_feeds": 1458,
+  "new": 79,
+  "not_modified": 14,
+  "ok": 50,
   "skipped": 0
  },
  "schema": "current-events-intake-v1",
